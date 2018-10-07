@@ -2,7 +2,7 @@
 function onclickpublicsub() {
 
     // var mqtt = require('mqtt')
-    var client = mqtt.connect('ws://120.105.129.49:9001')
+    var client = mqtt.connect('ws://host:port')
 
     let gameStatus = null;
     var $subTopic = '/pressChess'
