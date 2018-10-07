@@ -29,9 +29,9 @@
   }
   
   function connect() {
-    var $host = "120.105.129.49"
-    var $port = "9001"
-    console.log("連線ws://120.105.129.49:9001成功")
+    var $host = host
+    var $port = port
+    console.log("連線ws://host:port")
   
     // if ($host.length == 0 || $port.length == 0) {
     //   alert("Host 或 Port 不得為空白!")
